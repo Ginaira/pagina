@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso - Valerio-Ginaira</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: cursive; /* Cambia la tipografía a cursive */
+            background: linear-gradient(to right, #fffbfa, #fcbfbf); /* Fondo con gradiente */
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #070707;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav .nav-list {
+            list-style: none;
+            padding: 0;
+        }
+        nav .nav-list li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px; /* Aumenta el espacio entre tarjetas */
+        }
+        .card {
+            background: #f8e4e4; /* Color de fondo más atractivo */
+            border-radius: 10px; /* Mejora la curva de las esquinas */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+            padding: 20px;
+            flex: 1 1 45%; /* Mantiene un tamaño adecuado */
+            min-width: 300px; /* Ancho mínimo */
+            text-align: justify; /* Justifica el texto */
+            transition: transform 0.2s; /* Suaviza la animación al hacer clic */
+        }
+        .card:hover {
+            transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+        }
+        .card:active {
+            transform: scale(0.95); /* Reduce el tamaño al hacer clic */
+        }
+        h2, h3 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Valerio-Ginaira</h1>
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="curso.html">Curso</a></li>
+                <li><a href="semana.html">Semana</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div class="card">
+            <h2>Programa de Estudios</h2>
+            <h3>Diseño y Programación Web</h3>
+        </div>
+        
+        <div class="card">
+            <p><strong>Descripción:</strong></p>
+            <p><strong>Módulo:</strong> Integración de aplicaciones web y móviles</p>
+            <p><strong>Unidad Didáctica:</strong> Programación de aplicaciones web y móviles</p>
+            <p><strong>Semestre Académico:</strong> VI semestre</p>
+            <p><strong>Docente:</strong> Ing. Raúl Fernández Bejarano</p>
+        </div>
+        
+        <div class="card">
+            <h3>Competencia del Módulo Profesional</h3>
+            <p>Desarrollar las pruebas integrales de los sistemas de información y servicios de TI en la fase de implantación, de acuerdo al diseño funcional, buenas prácticas de TI y políticas de seguridad de la organización.</p>
+        </div>
+        
+        <div class="card">
+            <h3>Capacidades Terminales</h3>
+            <p>Planificar e implementar proyectos tecnológicos relacionados con tecnologías móviles teniendo en cuenta los niveles de funcionabilidad y seguridad.</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+

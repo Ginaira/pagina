@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio -Ginaira</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url(fon1.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            font-family: 'Courier New', monospace; /* Tipografía monoespaciada */
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            display: flex;
+            flex-direction: column; /* Alinea los elementos verticalmente */
+            align-items: center; /* Centra horizontalmente */
+        }
+        header {
+            background: #070707;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px; /* Esquinas redondeadas */
+            margin-bottom: 20px;
+            width: 100%; /* Asegura que ocupe todo el ancho */
+            position: absolute; /* Fija el encabezado en la parte superior */
+            top: 20px; /* Espacio desde la parte superior */
+        }
+        nav .nav-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav .nav-list li {
+            margin: 0 15px;
+        }
+        .container, .description-container {
+            max-width: 800px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra de caja */
+            margin-bottom: 20px; /* Espacio entre los cuadros */
+            width: 100%; /* Asegura que ambos cuadros tengan el mismo ancho */
+            margin-top: 100px; /* Espacio para evitar que se superponga con el encabezado */
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Valerio-Ginaira</h1>
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="curso.html">Curso</a></li>
+                <li><a href="semana.html">Semana</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>¡Bienvenido a Valerio-Ginaira!</h2>
+        <p>A mi proyecto de programación.</p>
+        <p>Aquí encontrarás el área y las semanas.</p>
+        <p>¡Explora!</p>
+    </div>
+    <div class="description-container">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy Valerio. Soy estudiante del sexto semestre de la carrera de Programación Web. Este portafolio está diseñado para mostrar mis 
+            trabajos y proyectos realizados durante el curso de Programación de Aplicaciones Web y Móviles.</p>
+        <p>¡Estoy emocionado de que formes parte de esto!</p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
